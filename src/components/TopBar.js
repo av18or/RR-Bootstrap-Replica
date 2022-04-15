@@ -1,17 +1,9 @@
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import Button from 'react-bootstrap/Button';
 
-
-function App() {
-  return (
-    <div className="App">
+import Navbar from 'react-bootstrap/Navbar'
 
 <Navbar bg="light" expand="lg" >
     <Navbar.Brand style={{margin: "5px 0 0 20px"}} href="#home">
-        <img src="./logo.png" width="100px"  /> 
+        <img src="[Instacart logo src]" /> 
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
@@ -23,12 +15,3 @@ function App() {
         </Nav>
     </Navbar.Collapse>
 </Navbar>
-
-
-
-      <h1>Hello World</h1>
-    </div>
-  );
-}
-
-export default App;
