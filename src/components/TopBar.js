@@ -14,12 +14,13 @@ export default function TopBar() {
           <Nav className="m-auto"></Nav>
           <Nav
             style={{
-            
+              
               padding: "24px 40px 20px 40px",
               fontSize: "18px",
               lineHeight: "26px",
               fontWeight: "bolder",
               display: "flex",
+              
               
             }}
           >
